@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #f5f7fa;
+  color: #1A3B5D;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background: linear-gradient(90deg, #007BCE, #00C4B3);
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+nav a:hover,
+nav a.active {
+  color: #f5f7fa;
+  text-decoration: underline;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 60px;
+  flex-wrap: wrap;
+}
+
+.hero-text {
+  max-width: 500px;
+}
+
+.hero-text h1 {
+  font-size: 2.2rem;
+  color: #007BCE;
+}
+
+.hero-text p {
+  margin-top: 10px;
+  color: #1A3B5D;
+}
+
+.hero-img img {
+  width: 400px;
+  border-radius: 20px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: linear-gradient(90deg, #007BCE, #00C4B3);
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  opacity: 0.85;
+}
+
+section {
+  padding: 80px 60px;
+  text-align: center;
+}
+
+.about img,
+.prototype img {
+  width: 80%;
+  margin-top: 20px;
+  border-radius: 15px;
+}
+
+.team-grid {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.member {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  width: 260px;
+}
+
+.contact ul {
+  list-style: none;
+  margin-top: 20px;
+}
+
+.contact a {
+  color: #007BCE;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #1A3B5D;
+  color: white;
+  margin-top: 50px;
+}
